@@ -11,7 +11,7 @@ export const useLogin = () =>{
 
     const login = async (email, password) => {
 
-        setIsLoading(tue)
+        setIsLoading(true)
 
         const response = await loginRequest({
             email,

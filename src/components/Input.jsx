@@ -15,7 +15,7 @@ export const Input = ({
         onChangeHandler(event.target.value, field);
     }
 
-    const handleInptBlur = (event) =>{
+    const handleInputBlur = (event) =>{
         onBlurHandler(event.target.value, field);
     }
 
@@ -30,7 +30,7 @@ export const Input = ({
                     type={type}
                     value={value}
                     onChange={handleValueChange}
-                    onBlur={handleInptBlur}
+                    onBlur={handleInputBlur}
                     rows={5}
                     style={{maxWidth: '400px'}}
                 />
@@ -39,7 +39,7 @@ export const Input = ({
                     type={type}
                     value={value}
                     onChange={handleValueChange}
-                    onBLur={handleInptBlur}
+                    onBlur={handleInputBlur}
                     
                 />
             )}
